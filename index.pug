@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="style.css")
+        link(rel="stylesheet", href="media.css")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous")
+    body
+        nav
+            a.brand-logo(href="#")
+                img(src="images/logo.svg", alt="")
+            .menu
+                ul.menu__list
+                    li.menu__item
+                        a(href="#home") HOME
+                    li.menu__item
+                        a(href="#intro") INTRO
+                    li.menu__item
+                        a(href="#service") SERVICES
+                    li.menu__item
+                        a(href="#project") PROJECTS
+                    li.menu__item
+                        a(href="#about") ABOUT
+                    li.menu__item
+                        a(href="#contact") CONTACT
+                    li.menu__item
+                        a.menu__item-social.-fb(href="#contact")
+                    li.menu__item
+                        a.menu__item-social.-tw(href="#contact")
+        header#home
+            .header-content
+                h1 BUSINESS  
+                span.header-content__item-transform
+                    span.header-content__item-list
+                        span.header-content__item SOLUTIONS 
+                        span.header-content__item TEMPLATES 
+                        span.header-content__item SERVICES
+                p Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics
+                a.header-content__btn(href='#') DISCOVER
+        .container.container-intro#intro
+            .intro-left
+                .intro-left__title INTRO
+                h2 We Offer Some Of The Best Business Growth Services In Town
+                p Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.
+                p.intro-left__text "Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."
+                .intro-left__author Louise Donovan - CEO
+            .intro-right
+                img(src="images/intro-office.jpg", alt="intro")
+        .container-service#service
+            .container
+                .container-service__title SERVICES
+                h2 Choose The Service Package
+                h2 That Suits Your Needs
+                .container-service__item-list
+                    .container-service__item
+                        .container-service__item-content
+                            img(src="images/services-1.jpg", alt="service")
+                            h3 Off The Ground
+                            p Perfect for fresh ideas or young startups, this package will help get the business off the ground
+                            ul
+                                li Environment and competition
+                                li Designing the marketing plan
+                            h4 Starting at 
+                                strong $199
+                        .container-service__btn-details DETAILS
+                    .container-service__item
+                        .container-service__item-content
+                            img(src="images/services-2.jpg", alt="service")
+                            h3 Accelerated Growth
+                            p Use this service pack to give your company the necessary impulse to become an industry leader
+                            ul
+                                li Business strategy planning
+                                li Taking the planned actions
+                            h4 Starting at 
+                                strong $299
+                        .container-service__btn-details DETAILS
+                    .container-service__item
+                        .container-service__item-content
+                            img(src="images/services-3.jpg", alt="service")
+                            h3 Market Domination
+                            p You already are a reference point in your industry now you need to learn about acquisitions
+                            ul
+                                li Maintaining the leader status
+                                li Acquisitions the right way
+                            h4 Starting at 
+                                strong $199
+                        .container-service__btn-details DETAILS
+        .hide-menu
+            label(for="menu-toggle")
+            input#menu-toggle(type="checkbox")
+            ul#hide-menu__menu
+                li
+                    a(href="#home") HOME
+                li
+                    a(href="#intro") INTRO
+                li
+                    a(href="#service") SERVICES
+                li
+                    a(href="#project") PROJECTS
+                li
+                    a(href="#about") ABOUT
+                li
+                    a(href="#contact") CONTACT
+        #project
+            .container.container-project
+                .container-project__title PROJECTS
+                h2 Projects That We're Proud Of
+                .container-project__content
+                    .container-project__content-item
+                        img(src="images/project-1.jpg", alt="project")
+                        div
+                        span Online Banking
+                    .container-project__content-item
+                        img(src="images/project-2.jpg", alt="project")
+                        div
+                        span Classic Industry
+                    .container-project__content-item
+                        img(src="images/project-3.jpg", alt="project")
+                        div
+                        span BoomBap Audio
+                    .container-project__content-item
+                        img(src="images/project-4.jpg", alt="project")
+                        div
+                        span Van Moose
+                    .container-project__content-item
+                        img(src="images/project-5.jpg", alt="project")
+                        div
+                        span Joy Moments
+                    .container-project__content-item
+                        img(src="images/project-6.jpg", alt="project")
+                        div
+                        span Spark Events
+                    .container-project__content-item
+                        img(src="images/project-7.jpg", alt="project")
+                        div
+                        span Casual Wear
+                    .container-project__content-item
+                        img(src="images/project-8.jpg", alt="project")
+                        div
+                        span Zazoo Apps
+        .container.container-about#about
+            .container-about__left
+                img(src="images/about.jpg", alt="intro")
+            .container-about__right
+                .container-about__right-title ABOUT
+                h2 We're Passionate About Delivering Growth Services
+                p Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time
+                ul
+                    li Everything we recommend has direct positive impact
+                    li You will become an important partner of our company
+                .container-about__right-counter
+                    .container-about__counter-item
+                        .container-about__counter-number 231
+                        .container-about__counter-info Happy Users
+                    .container-about__counter-item
+                        .container-about__counter-number 121
+                        .container-about__counter-info Issues Solved
+                    .container-about__counter-item
+                        .container-about__counter-number 159
+                        .container-about__counter-info Good Reviews
+        #contact
+            .container.container-contact
+                .container-contact__left
+                    .container-contact__left-title CONTACT
+                    h2 Get In Touch Using The Form
+                    p You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries
+                    .container-contact__left-info-contact
+                        .container-contact__left-info-item
+                            i.-address
+                            span    22nd Innovative Street, San Francisco, CA 94043, US
+                        .container-contact__left-info-item
+                            i.-phone
+                            span    +81 720 22 126
+                        .container-contact__left-info-item
+                            i.-phone
+                            span    +81 720 22 128
+                        .container-contact__left-info-item
+                            i.-mail
+                            span    office@aria.com
+                    h3 Follow Aria On Social Media
+                    .container-contact__left-group-social
+                        i.-fb
+                        i.-tw
+                        i.-gg
+                        i.-insta
+                        i.-in
+                        i.-be
+                .container-contact__right
+                    .container-contact__right-text-input
+                        input#inputName(type="text" placeholder="Your Name ...")
+                        label(for="inputName") Name
+                    .container-contact__right-text-input
+                        input#inputEmail(type="text" placeholder="Your Email ...")
+                        label(for="inputEmail") Email
+                    .container-contact__right-text-area
+                        textarea#inputMess(placeholder="Your Message ...")
+                        label(for="inputMess") Message
+                    .container-contact__right-accept
+                        input(type="checkbox", id="checked")
+                        label(for="checked") I agree with Aria's stated Privacy Policy and Terms Conditions
+                    .container-contact__right-btn-submit SUBMIT MESSAGE
+
+

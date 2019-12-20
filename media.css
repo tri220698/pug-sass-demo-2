@@ -1,0 +1,319 @@
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .container-intro .intro-left h2 {
+    font-size: 3rem;
+  }
+  .container-intro .intro-left p {
+    font-size: 1.4rem;
+  }
+
+  .container-service .container-service__item-list .container-service__item {
+    width: 30rem;
+  }
+
+  .container-about__left {
+    height: 30rem;
+  }
+  .container-about__right h2 {
+    font-size: 2.3rem;
+  }
+  .container-about__right p {
+    font-size: 1.7rem;
+  }
+  .container-about__right ul {
+    font-size: 1.6rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-number {
+    font-size: 3.8rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-info {
+    font-size: 1.8rem;
+  }
+}
+@media all and (min-width: 800px) and (max-width: 1023px) {
+  @-webkit-keyframes scrollUp {
+    20% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: -5.8rem;
+    }
+    90% {
+      margin-top: -11.6rem;
+    }
+  }
+  nav a.brand-logo {
+    width: 10rem;
+    height: 3.6rem;
+  }
+  nav .menu {
+    font-size: 1.2rem;
+  }
+
+  header .header-content {
+    width: 72rem;
+    margin-left: -36rem;
+  }
+  header .header-content h1 {
+    width: 35rem;
+    font-size: 5rem;
+  }
+  header .header-content span.header-content__item-transform {
+    width: 35rem;
+    font-size: 5rem;
+    height: 5.8rem;
+  }
+  header .header-content p {
+    font-size: 1.6rem;
+  }
+  header .header-content .header-content__btn {
+    width: 10rem;
+    font-size: 1.1rem;
+  }
+
+  .container-intro {
+    flex-direction: column;
+  }
+  .container-intro .intro-left {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .container-intro .intro-right {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container-service .container-service__item-list {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-service .container-service__item-list .container-service__item {
+    width: 60rem;
+    margin: 1.5rem auto;
+  }
+  .container-service .container-service__item-list .container-service__item .container-service__item-content {
+    height: 60rem;
+  }
+
+  .container-about__left {
+    height: 25rem;
+  }
+  .container-about__right h2 {
+    font-size: 2rem;
+  }
+  .container-about__right p {
+    font-size: 1.4rem;
+  }
+  .container-about__right ul {
+    font-size: 1.3rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-number {
+    font-size: 2.7rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-info {
+    font-size: 1.3rem;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 799px) {
+  @-webkit-keyframes scrollUp {
+    20% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: -5.8rem;
+    }
+    90% {
+      margin-top: -11.6rem;
+    }
+  }
+  nav a.brand-logo {
+    width: 8rem;
+    height: 2.88rem;
+  }
+  nav .menu {
+    font-size: 1rem;
+    width: 70%;
+  }
+  nav .menu ul.menu__list li.menu__item .menu__item-social {
+    display: none;
+  }
+
+  header .header-content {
+    width: 44rem;
+    margin-left: -22rem;
+  }
+  header .header-content h1 {
+    width: 44rem;
+    font-size: 5rem;
+    float: none;
+    padding: 0;
+  }
+  header .header-content span.header-content__item-transform {
+    width: 44rem;
+    font-size: 5rem;
+    height: 5.8rem;
+    text-align: center;
+  }
+  header .header-content p {
+    font-size: 1.6rem;
+  }
+  header .header-content .header-content__btn {
+    width: 10rem;
+    font-size: 1.1rem;
+  }
+
+  .container-intro {
+    flex-direction: column;
+  }
+  .container-intro .intro-left {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .container-intro .intro-left h2 {
+    font-size: 3rem;
+  }
+  .container-intro .intro-left p {
+    font-size: 1.4rem;
+  }
+  .container-intro .intro-right {
+    width: 80%;
+    height: 30rem;
+    margin: 0 auto;
+  }
+
+  .container-service .container-service__item-list {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-service .container-service__item-list .container-service__item {
+    width: 45rem;
+    margin: 1.5rem auto;
+  }
+  .container-service .container-service__item-list .container-service__item .container-service__item-content {
+    height: 50rem;
+  }
+
+  .container-project__content-item {
+    width: 50%;
+  }
+
+  .container-about {
+    flex-direction: column;
+  }
+  .container-about__left {
+    width: 80%;
+    height: 30rem;
+    margin: 2rem auto;
+  }
+  .container-about__right {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-about__right h2 {
+    font-size: 2.5rem;
+  }
+  .container-about__right p {
+    font-size: 1.8rem;
+  }
+  .container-about__right ul {
+    font-size: 1.6rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-number {
+    font-size: 2.7rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-info {
+    font-size: 1.4rem;
+  }
+
+  .container-contact {
+    flex-direction: column;
+  }
+  .container-contact__left {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .container-contact__right {
+    width: 80%;
+    margin: 2.5rem auto;
+  }
+}
+@media all and (max-width: 479px) {
+  .container-intro {
+    flex-direction: column;
+  }
+  .container-intro .intro-left {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .container-intro .intro-left h2 {
+    font-size: 2.8rem;
+  }
+  .container-intro .intro-left p {
+    font-size: 1.3rem;
+  }
+  .container-intro .intro-right {
+    width: 80%;
+    height: 27rem;
+    margin: 0 auto;
+  }
+
+  .container-service .container-service__item-list {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container-service .container-service__item-list .container-service__item {
+    width: 35rem;
+    margin: 1.5rem auto;
+  }
+  .container-service .container-service__item-list .container-service__item .container-service__item-content {
+    height: 45rem;
+  }
+
+  .container-project__content-item {
+    width: 50%;
+  }
+
+  .container-about {
+    flex-direction: column;
+  }
+  .container-about__left {
+    width: 80%;
+    height: 30rem;
+    margin: 2rem auto;
+  }
+  .container-about__right {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container-about__right h2 {
+    font-size: 2.5rem;
+  }
+  .container-about__right p {
+    font-size: 1.8rem;
+  }
+  .container-about__right ul {
+    font-size: 1.6rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-number {
+    font-size: 2.7rem;
+  }
+  .container-about__right-counter .container-about__counter-item .container-about__counter-info {
+    font-size: 1.4rem;
+  }
+
+  .container-contact {
+    flex-direction: column;
+  }
+  .container-contact__left {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .container-contact__right {
+    width: 80%;
+    margin: 2.5rem auto;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
