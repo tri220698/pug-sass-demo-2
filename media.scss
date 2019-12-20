@@ -315,6 +315,61 @@
 }
 
 @media all and (max-width: 479px) { 
+    @-webkit-keyframes scrollUp {
+        20% {margin-top: 0;}
+        50% {margin-top: -5.8rem;}
+        90% {margin-top: -11.6rem;}
+    }
+
+    nav {
+        a.brand-logo {
+            width: 8rem;
+            height: 2.88rem;
+        }
+
+        .menu {
+            font-size: 1rem;
+            width: 70%;
+
+            ul.menu__list {
+                li.menu__item {
+                    .menu__item-social {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    header {
+        .header-content {
+            width: 44rem;
+            margin-left: -22rem;
+
+            h1 {
+                width: 44rem;
+                font-size: 5rem;
+                float: none;
+                padding: 0;
+            }
+
+            span.header-content__item-transform {
+                width: 44rem;
+                font-size: 5rem;
+                height: 5.8rem;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1.6rem;
+            }
+
+            .header-content__btn {
+                width: 10rem;
+                font-size: 1.1rem;
+            }
+        }
+    }
     .container-intro {
         flex-direction: column;
         
